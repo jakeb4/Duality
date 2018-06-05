@@ -1,0 +1,224 @@
+0,0] PingWebSocketCM() (CM-01-OKC1.cm.steampowered.com:443) starting...
+[2018-02-09 22:11:08] [0,0] PingWebSocketCM() (s3tuk-035b.cm.steampowered.com:443) starting...
+[2018-02-09 22:11:09] [0,0] PingWebSocketCM() (CM-01-OKC1.cm.steampowered.com:443) results: 61.9488ms + load 35.0000
+[2018-02-09 22:11:09] [0,0] PingWebSocketCM() stopping after 400.00ms timeout and using good enough host (CM-01-OKC1.cm.steampowered.com:443)
+[2018-02-09 22:11:09] [0,0] PingWebSocketCM() (CM03-IAD.cm.steampowered.com:443) results: 109.0641ms + load 37.0000
+[2018-02-09 22:11:09] [0,0] PingWebSocketCM() (CM02-FRA.cm.steampowered.com:27021) failed talking to cm (timeout/neterror - Invalid)
+[2018-02-09 22:11:09] [0,0] PingWebSocketCM() (s3tuk-035b.cm.steampowered.com:443) results: 116.0316ms + load 19.0000
+[2018-02-09 22:11:09] [1,3] Connect() starting connection (eNetQOSLevelHigh, CM-01-OKC1.cm.steampowered.com:443, WebSocket)
+[2018-02-09 22:11:09] [1,3] ConnectionCompleted() (155.133.254.132:443, WebSocket)
+[2018-02-09 22:11:10] [1,3] RecvMsgClientLogOnResponse() : [U:1:836551488] 'OK'
+[2018-02-09 22:39:08] [0,0] ConnectionDisconnected('I/O Operation Failed') : 'OK' (155.133.254.132:443, WebSocket)
+[2018-02-09 22:39:08] [0,0] StartAutoReconnect() will start in 13 seconds
+[2018-02-09 22:59:27] [0,0] Server says 50% of connections should be websockets, we rolled 87 - using UDP as default.
+[2018-02-09 22:59:27] [1,2] Connect() starting connection (eNetQOSLevelLow, 155.133.254.133:27017, UDP)
+[2018-02-09 22:59:28] [1,2] ConnectionCompleted() (162.254.193.47:27017, UDP)
+[2018-02-10 11:23:04] [1,2] AsyncDisconnect()
+[2018-02-10 11:23:05] [1,2] RecvMsgClientLogOnResponse() : 'Timeout', ignored since we're not waiting for a logon response
+[2018-02-10 11:23:28] [0,0] ConnectionDisconnected('I/O Operation Failed') : 'Timeout' (162.254.193.47:27017, UDP)
+[2018-02-10 11:23:28] [0,0] StartAutoReconnect() will start in 19 seconds
+[2018-02-10 11:24:36] [0,0] Server says 50% of connections should be websockets, we rolled 0 - using WebSockets as default.
+[2018-02-10 11:24:36] [0,0] Existing WebSocket ping data (s3tuk-035b.cm.steampowered.com:443) results: 116.0316ms + load 19.0000 (47607 seconds ago)
+[2018-02-10 11:24:36] [0,0] Existing WebSocket ping data (CM03-IAD.cm.steampowered.com:443) results: 109.0641ms + load 37.0000 (47607 seconds ago)
+[2018-02-10 11:24:36] [0,0] Existing WebSocket ping data (CM-01-OKC1.cm.steampowered.com:443) results: 61.9488ms + load 35.0000 (47607 seconds ago)
+[2018-02-10 11:24:36] [0,0] PingWebSocketCM() (cm01-lax.cm.steampowered.com:27021) starting...
+[2018-02-10 11:24:36] [0,0] PingWebSocketCM() (cm03-lax.cm.steampowered.com:443) starting...
+[2018-02-10 11:24:36] [0,0] PingWebSocketCM() (CM04-IAD.cm.steampowered.com:27020) starting...
+[2018-02-10 11:24:36] [0,0] PingWebSocketCM() (cm03-ord.cm.steampowered.com:443) starting...
+[2018-02-10 11:24:37] [0,0] PingWebSocketCM() (CM04-IAD.cm.steampowered.com:27020) results: 74.2188ms + load 43.0000
+[2018-02-10 11:24:37] [0,0] PingWebSocketCM() stopping after 400.00ms timeout and using good enough host (CM-01-OKC1.cm.steampowered.com:443)
+[2018-02-10 11:24:37] [0,0] PingWebSocketCM() (cm01-lax.cm.steampowered.com:27021) failed talking to cm (timeout/neterror - Invalid)
+[2018-02-10 11:24:37] [0,0] PingWebSocketCM() (cm03-lax.cm.steampowered.com:443) failed talking to cm (timeout/neterror - Invalid)
+[2018-02-10 11:24:37] [0,0] PingWebSocketCM() (cm03-ord.cm.steampowered.com:443) results: 324.2188ms + load 35.0000
+[2018-02-10 11:24:37] [1,7] Connect() starting connection (eNetQOSLevelLow, CM-01-OKC1.cm.steampowered.com:443, WebSocket)
+[2018-02-10 11:24:38] [1,7] ConnectionCompleted() (155.133.254.132:443, WebSocket)
+[2018-02-10 11:33:33] [1,7] AsyncDisconnect()
+[2018-02-10 11:33:33] [1,7] RecvMsgClientLogOnResponse() : 'Timeout', ignored since we're not waiting for a logon response
+[2018-02-10 11:33:33] [0,0] ConnectionDisconnected('I/O Operation Failed') : 'Timeout' (155.133.254.132:443, WebSocket)
+[2018-02-10 11:33:33] [0,0] StartAutoReconnect() will 3a</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cc4d60ad-6fc4-fa4f-9097-d61a4c66423a</stEvt:instanceID>
+                  <stEvt:when>2016-01-17T22:31:22-06:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9d71ec0f-7ac8-af40-9bda-b201d8edd4fb</stEvt:instanceID>
+                  <stEvt:when>2016-01-17T22:43:57-06:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f2efb7da-56f7-d048-bd41-9c33960f35c7</stEvt:instanceID>
+                  <stEvt:when>2016-03-15T14:36:14-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from application/vnd.adobe.photoshop to image/png</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>derived</stEvt:action>
+                  <stEvt:parameters>converted from application/vnd.adobe.photoshop to image/png</stEvt:parameters>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ae11f5b3-a9c2-2f4e-bda1-c0c8cc73184e</stEvt:instanceID>
+                  <stEvt:when>2016-03-15T14:36:14-05:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Photoshop CC 2015 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:f2efb7da-56f7-d048-bd41-9c33960f35c7</stRef:instanceID>
+            <stRef:documentID>adobe:docid:photoshop:65d3219e-e6f8-11e5-bc1f-e63eb513c8a6</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:cc4d60ad-6fc4-fa4f-9097-d61a4c66423a</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <photoshop:ColorMode>3</photoshop:ColorMode>
+         <photoshop:ICCProfile>sRGB IEC61966-2.1</photoshop:ICCProfile>
+         <photoshop:DocumentAncestors>
+            <rdf:Bag>
+               <rdf:li>adobe:docid:photoshop:91b135bf-bda2-11e5-9d4a-ae5c3d6c21eb</rdf:li>
+            </rdf:Bag>
+         </photoshop:DocumentAncestors>
+         <tiff:Orientation>1</tiff:Orientation>
+         <tiff:XResolution>720000/10000</tiff:XResolution>
+         <tiff:YResolution>720000/10000</tiff:YResolution>
+         <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+         <exif:ColorSpace>1</exif:ColorSpace>
+         <exif:PixelXDimension>36</exif:PixelXDimension>
+         <exif:PixelYDimension>22</exif:PixelYDimension>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                            
+<?xpacket end="w"?>ÇX◊l    cHRM  z%  ÄÉ  ˘ˇ  ÄÈ  u0  Í`  :ò  oí_≈F  JIDATx⁄ºñ_lSU«?∑∑Ω•≥+≈&Ffâ	»%[4JLà#Ò¡7É#∆å?#&J˘ó"â…–E|‰ç,&À¿D—it§ª◊ÄkdÀhF£î•Ì∏-w˝w{|Y—Í†∑≠Ïóú‹{Œ˝Â˜˝ú¸ŒÔûü$Ñ†”u}9¸«xxnaÅ´¿qUUáÌƒì™UîeyÖ¢((äÇ€ÌÆx∫\.√ ãëÀÂ~≤&iö∂ò`h©&®(
+Nß≥ÍÆÖ$ìI[`í¶iáõõõÒx<u	⁄5;`í]◊O{ΩﬁΩÌÌÌ8∑=
+¨$_˚|æùmmmHíƒRÿb`µÆÎ20‡˜˚ﬂlmm]2( ”4ôòò•RÈ√ä*”u]ÜÅ@W0\òt:M4ÕYñµSU’Åä”ÔÀ€âƒ7ë!æ∏vÅxl0©Tä………9À≤∫TU ¯O	ı∆˚ÃW=ªÙ‹ÿ∏Yöw•Ús]ˇ>≤$ˇ?È±{üÁï¶˚l»Nﬂ∂™™:V˛æhMˇ2Ó\ g.ë.d8±ÒÀdwC0◊ã∑.õDÓY:‰‚;~ˇßíÅ1°˛ÌÛ∞ø dÀì_ÔÜŸ>ÇQH◊sÓFûMﬂgà‹≥ 0JÁ©d‡Ëø˝tx	àñ"©qvèÑàggkNQ˜®I˜®âiUú«;¿yª@ WÄM¿Pya*3Mœoò L€NQÁŒ›»W¸~Ä3¿¿`-@ s¿6‡êÑdƒ≥≥Ï	Iç◊î¢ªlﬁ]àM≠@Âıƒ9`“ÏadV≥ï"	,‡`=„£ƒjπ∏Ü-¨u^G” Y+«AÌg.=p¯së=·(M
+Ë B¿|5ëZØÚ;ôí©Æv≠<´€^E=«]ycÕf>A‚OµÅ˜IIàgùÖœ¶
+J(⁄®ß∑(ﬁ,‹ﬁ±π©Û‰hˆÍÅ9_ö†eπÂs ‹Ú"˝››_ÎŒo4|?◊ºÓ^c◊Bo˚∂LÆZQ±ΩÎÊóœƒZÍÅi‡Âﬁ”';<ø*œ≥´V'^Îli∫gO≤ﬁòwcﬁoøÎ+ø/ª=≥£˘Ω}πF‚˝5 &Ùï˛y^ùQ    IENDÆB`Ç

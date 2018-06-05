@@ -1,0 +1,887 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &174418
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474418}
+  - component: {fileID: 2074422}
+  m_Layer: 0
+  m_Name: WeaponCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474420}
+  - component: {fileID: 14374424}
+  - component: {fileID: 11474406}
+  - component: {fileID: 11474408}
+  - component: {fileID: 11474410}
+  - component: {fileID: 11474412}
+  - component: {fileID: 11474414}
+  - component: {fileID: 11474416}
+  - component: {fileID: 11497546}
+  m_Layer: 0
+  m_Name: SimplePlayer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474422}
+  - component: {fileID: 8174424}
+  - component: {fileID: 2074424}
+  - component: {fileID: 11474418}
+  m_Layer: 0
+  m_Name: FPSCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174424
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474424}
+  - component: {fileID: 8274424}
+  - component: {fileID: 11474420}
+  - component: {fileID: 11474422}
+  - component: {fileID: 11474424}
+  m_Layer: 0
+  m_Name: 1Pistol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474418
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474422}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474420
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 474422}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 474424}
+  - {fileID: 474418}
+  m_Father: {fileID: 474420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474424
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 474422}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2074422
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174418}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!20 &2074424
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174422}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.8731343, g: 0.8731343, b: 0.8731343, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &8174424
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174422}
+  m_Enabled: 1
+--- !u!82 &8274424
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174424}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11474406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf848271384e984c89313a56d3bb5cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_FPController
+    Name: Dead
+    TextAsset: {fileID: 4900000, guid: e222cb90f03cc1d42b1b55ca715abf56, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Freeze
+    TextAsset: {fileID: 4900000, guid: 09de3ba1cb6297c40a443e98bb566ef1, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Zoom
+    TextAsset: {fileID: 4900000, guid: 28eae9255eef703418634b11fd7722f8, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Crouch
+    TextAsset: {fileID: 4900000, guid: 6ff826a04e7101a4ca8a1b40ba233f63, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Run
+    TextAsset: {fileID: 4900000, guid: bc8f29f3e3f471c48a1961a327e5f20e, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPController
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  m_CurrentGroundTexture: {fileID: 0}
+  m_CurrentTerrainTexture: {fileID: 0}
+  PhysicsGravityModifier: 0.2
+  MotorFreeFly: 0
+  PhysicsPushForce: 5
+  PhysicsPushMode: 0
+  PhysicsPushInterval: 0.1
+  PhysicsCrouchHeightModifier: 0.5
+  PositionOnPlatform: {x: 0, y: 0, z: 0}
+  PhysicsHasCollisionTrigger: 1
+  MotorAcceleration: 0.18
+  MotorDamping: 0.17
+  MotorBackwardsSpeed: 0.65
+  MotorAirSpeed: 0.35
+  MotorSlopeSpeedUp: 1
+  MotorSlopeSpeedDown: 1
+  MotorJumpForce: 0.11
+  MotorJumpForceDamping: 0.08
+  MotorJumpForceHold: 0.003
+  MotorJumpForceHoldDamping: 0.5
+  PhysicsForceDamping: 0.05
+  PhysicsSlopeSlideLimit: 30
+  PhysicsSlopeSlidiness: 0.15
+  PhysicsWallBounce: 0
+  PhysicsWallFriction: 0
+--- !u!114 &11474408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26624e206ef7f1478fd1f7f5cdbaa4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_FPInput
+    Name: Dead
+    TextAsset: {fileID: 4900000, guid: 2c285fc509108314d94da5d41fc693a9, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPInput
+    Name: Zoom
+    TextAsset: {fileID: 4900000, guid: ba6cdc7550b18e74c982f46929f38c56, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPInput
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  MouseLookSensitivity: {x: 5, y: 5}
+  MouseLookMutePitch: 0
+  MouseLookMuteYaw: 0
+  MouseLookSmoothSteps: 10
+  MouseLookSmoothWeight: 0.5
+  MouseLookAcceleration: 0
+  MouseLookAccelerationThreshold: 0.4
+  MouseLookInvert: 0
+  MouseCursorZones: []
+  MouseCursorForced: 0
+  MouseCursorBlocksMouseLook: 1
+--- !u!114 &11474410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c41202c9e34c50488097d283e5dd8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11474412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5f5297db043e440aed3e8084caf0d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helpbox: 73
+--- !u!114 &11474414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db50f5eff40d94cfdac2b1ad5c44d735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodes: []
+  nodeCommands: []
+  commandSource: 0
+  pathType: 2
+  pathSpeed: 0
+  teleportToStart: 0
+  affectY: 0
+  nodePause: 0
+--- !u!114 &11474416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e75a04a147624aa9b6f89d5d4759155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charState: 0
+  animationEngine: 2
+  customAnimationClass: 
+  motionControl: 0
+  talkingAnimation: 0
+  speechLabel: 
+  speechColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  portraitIcon:
+    texture: {fileID: 0}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    clickOffset: {x: 0, y: 0}
+  useExpressions: 0
+  expressions: []
+  isLipSyncing: 0
+  phonemeParameter: 
+  lipSyncGroupID: 0
+  leftHandBone: {fileID: 0}
+  rightHandBone: {fileID: 0}
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
+  runAnim: {fileID: 0}
+  talkAnim: {fileID: 0}
+  turnLeftAnim: {fileID: 0}
+  turnRightAnim: {fileID: 0}
+  headLookLeftAnim: {fileID: 0}
+  headLookRightAnim: {fileID: 0}
+  headLookUpAnim: {fileID: 0}
+  headLookDownAnim: {fileID: 0}
+  upperBodyBone: {fileID: 0}
+  leftArmBone: {fileID: 0}
+  rightArmBone: {fileID: 0}
+  neckBone: {fileID: 0}
+  animCrossfadeSpeed: 0.2
+  moveSpeedParameter: Speed
+  verticalMovementParameter: 
+  turnParameter: 
+  talkParameter: IsTalking
+  directionParameter: Direction
+  angleParameter: Angle
+  headYawParameter: 
+  headPitchParameter: 
+  expressionParameter: 
+  rootTurningFactor: 0
+  headLayer: 1
+  mouthLayer: 2
+  spriteChild: {fileID: 0}
+  rotateSprite3D: 0
+  idleAnimSprite: idle
+  walkAnimSprite: walk
+  runAnimSprite: run
+  talkAnimSprite: talk
+  lockScale: 0
+  spriteScale: 1
+  lockDirection: 0
+  spriteDirection: D
+  doDirections: 1
+  crossfadeAnims: 0
+  doDiagonals: 0
+  isTalking: 0
+  frameFlipping: 0
+  flipCustomAnims: 0
+  walkSpeedScale: 2
+  runSpeedScale: 6
+  turnSpeed: 7
+  acceleration: 6
+  deceleration: 0
+  turnBeforeWalking: 0
+  runDistanceThreshold: 1
+  antiGlideMode: 0
+  ignoreGravity: 0
+  freezeRigidbodyWhenIdle: 0
+  doWallReduction: 0
+  wallLayer: Default
+  wallDistance: 0.5
+  walkSound: {fileID: 0}
+  runSound: {fileID: 0}
+  textScrollClip: {fileID: 0}
+  soundChild: {fileID: 0}
+  speechAudioSource: {fileID: 0}
+  headTurnTarget: {fileID: 0}
+  headTurnTargetOffset: {x: 0, y: 0, z: 0}
+  headFacing: 0
+  ikHeadTurning: 0
+  jumpAnim: {fileID: 0}
+  jumpParameter: Jump
+  ID: 0
+  hotspotDetector: {fileID: 0}
+--- !u!114 &11474418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a855eb337c41c604bb7238f65577f09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_FPCamera
+    Name: Freeze
+    TextAsset: {fileID: 4900000, guid: 2df874f281c86b64993ea06864328c63, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Reload
+    TextAsset: {fileID: 4900000, guid: b785f8d21f8fdf54381909dd6c0b0a7b, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Zoom
+    TextAsset: {fileID: 4900000, guid: 3bc9a4aaf8c492c468c5686d3e942714, type: 3}
+    StatesToBlock: 06000000
+  - TypeName: vp_FPCamera
+    Name: SlideFast
+    TextAsset: {fileID: 4900000, guid: e262d4c059e4935449c8ba2ccc1ee47f, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Slide
+    TextAsset: {fileID: 4900000, guid: 0365841e07b064841bdf46e10da46b1e, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Crouch
+    TextAsset: {fileID: 4900000, guid: d6d8e43443d76114c9ead70bfb48abb8, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Run
+    TextAsset: {fileID: 4900000, guid: 83ab3e8a4a8733a499812c5d29ab157f, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPCamera
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  FPController: {fileID: 0}
+  RenderingFieldOfView: 60
+  RenderingZoomDamping: 0.2
+  PositionOffset: {x: 0, y: 1.75, z: 0.1}
+  PositionGroundLimit: 0.1
+  PositionSpringStiffness: 0.01
+  PositionSpringDamping: 0.25
+  PositionSpring2Stiffness: 0.95
+  PositionSpring2Damping: 0.25
+  PositionKneeling: 0.025
+  PositionKneelingSoftness: 1
+  PositionEarthQuakeFactor: 1
+  RotationPitchLimit: {x: 90, y: -90}
+  RotationYawLimit: {x: -360, y: 360}
+  RotationSpringStiffness: 0.01
+  RotationSpringDamping: 0.25
+  RotationKneeling: 0.025
+  RotationKneelingSoftness: 1
+  RotationStrafeRoll: 0.01
+  RotationEarthQuakeFactor: 0
+  LookPoint: {x: 0, y: 0, z: 0}
+  Position3rdPersonOffset: {x: 0.5, y: 0.1, z: 0.75}
+  ShakeSpeed: 0
+  ShakeAmplitude: {x: 10, y: 10, z: 0}
+  BobRate: {x: 0, y: 1.4, z: 0, w: 0.7}
+  BobAmplitude: {x: 0, y: 0.25, z: 0, w: 0.5}
+  BobInputVelocityScale: 1
+  BobMaxInputVelocity: 100
+  BobRequireGroundContact: 1
+  BobStepThreshold: 10
+  HasCollision: 1
+  MuteRoll: 0
+  MuteBob: 0
+  MuteShakes: 0
+  MuteEarthquakes: 0
+  MuteBombShakes: 0
+  MuteFallImpacts: 0
+  MuteHeadImpacts: 0
+  MuteGroundStomps: 0
+  DisableVRModeOnStartup: 0
+--- !u!114 &11474420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8227215081904e84a97ab858e04ca55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_FPWeapon
+    Name: Reload
+    TextAsset: {fileID: 4900000, guid: 74de2bc957508df4a9d07d8e865729d6, type: 3}
+    StatesToBlock: 03000000
+  - TypeName: vp_FPWeapon
+    Name: Reload2
+    TextAsset: {fileID: 4900000, guid: 12765ac2659e07e43bc6d19589d425e5, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPWeapon
+    Name: Zoom
+    TextAsset: {fileID: 4900000, guid: 339945a302603004ba11faef72fff091, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPWeapon
+    Name: Attack
+    TextAsset: {fileID: 4900000, guid: 28b9cce4d7d6c7c429f28f6f4cf3e227, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPWeapon
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  Weapon3rdPersonModel: {fileID: 0}
+  Weapon3rdPersonInvisibleMaterial: {fileID: 0}
+  PositionOffset: {x: 0.1493672, y: -0.2665937, z: 0.1704005}
+  PositionSpring2Stiffness: 0.2
+  PositionSpring2Damping: 0.5615942
+  RotationOffset: {x: -3.158258, y: -5, z: 0}
+  RotationSpring2Stiffness: 0.85
+  RotationSpring2Damping: 0.6
+  AnimationType: 1
+  AnimationGrip: 1
+  WeaponPrefab: {fileID: 100014, guid: 49d795f62fdd8ad49a1f04523d691f9e, type: 2}
+  RenderingZoomDamping: 0.5
+  RenderingFieldOfView: 35
+  RenderingClippingPlanes: {x: 0.01, y: 10}
+  RenderingZScale: 1
+  PositionSpringStiffness: 0.01
+  PositionSpringDamping: 0.25
+  PositionFallRetract: 1
+  PositionPivotSpringStiffness: 0.1
+  PositionPivotSpringDamping: 0.5
+  PositionKneeling: 0.06
+  PositionKneelingSoftness: 1
+  PositionWalkSlide: {x: 1, y: 1, z: 1}
+  PositionPivot: {x: 0, y: 0, z: -0.2741375}
+  RotationPivot: {x: 0, y: 0, z: 0}
+  PositionInputVelocityScale: 3
+  PositionMaxInputVelocity: 20
+  RotationSpringStiffness: 0.01
+  RotationSpringDamping: 0.25
+  RotationPivotSpringStiffness: 0.01
+  RotationPivotSpringDamping: 0.25
+  RotationKneeling: 0
+  RotationKneelingSoftness: 1
+  RotationLookSway: {x: 1, y: 1, z: 0}
+  RotationStrafeSway: {x: 1, y: 1, z: -1}
+  RotationFallSway: {x: 2, y: 0, z: 0}
+  RotationSlopeSway: 0.75
+  RotationInputVelocityScale: 1
+  RotationMaxInputVelocity: 5
+  RetractionDistance: 0.4
+  RetractionOffset: {x: 0, y: 0}
+  RetractionRelaxSpeed: 0.25
+  ShakeSpeed: 0.1
+  ShakeAmplitude: {x: 0.25, y: 0, z: 1}
+  BobRate: {x: 1.4, y: 0.7, z: 0.7, w: 0.7}
+  BobAmplitude: {x: 0.5, y: 0.4, z: 0.2, w: 0.005}
+  BobInputVelocityScale: 3.5
+  BobMaxInputVelocity: 250
+  BobRequireGroundContact: 1
+  StepPositionForce: {x: 0, y: 0.015, z: 0}
+  StepRotationForce: {x: 1.5, y: 0, z: 0}
+  StepSoftness: 5
+  StepMinVelocity: 2
+  StepPositionBalance: 0
+  StepRotationBalance: 0
+  StepForceScale: 0.05
+  LookDownActive: 0
+  LookDownYawLimit: 60
+  LookDownPositionOffsetMiddle: {x: 0.32, y: -0.37, z: 0.78}
+  LookDownPositionOffsetLeft: {x: 0.27, y: -0.31, z: 0.7}
+  LookDownPositionOffsetRight: {x: 0.6, y: -0.41, z: 0.86}
+  LookDownPositionSpringPower: 1
+  LookDownRotationOffsetMiddle: {x: -3.9, y: 2.24, z: 4.69}
+  LookDownRotationOffsetLeft: {x: -7, y: -10.5, z: 15.6}
+  LookDownRotationOffsetRight: {x: -9.2, y: -9.8, z: 48.84}
+  LookDownRotationSpringPower: 1
+  SoundWield: {fileID: 8300000, guid: 6fde2b0b9b5901b448526892922ee554, type: 3}
+  SoundUnWield: {fileID: 8300000, guid: 1121f8e8542b4ad4db2becdfb8edf6a8, type: 3}
+  AnimationWield: {fileID: 0}
+  AnimationUnWield: {fileID: 0}
+  AnimationAmbient: []
+  AmbientInterval: {x: 2.5, y: 7.5}
+  PositionExitOffset: {x: 0, y: -1, z: 0}
+  RotationExitOffset: {x: 40, y: 0, z: 0}
+  DoSpringsInLateUpdate: 0
+--- !u!114 &11474422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3320cb8b89dc2547959c4c6e6621e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Persist: 0
+  States:
+  - TypeName: vp_FPWeaponShooter
+    Name: Zoom
+    TextAsset: {fileID: 4900000, guid: 0b0d44f482a71e442b3cffbfc7dc7616, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPWeaponShooter
+    Name: SlideFast
+    TextAsset: {fileID: 4900000, guid: 35a0e300b8a7df949bad56f65c81e20f, type: 3}
+    StatesToBlock: 
+  - TypeName: vp_FPWeaponShooter
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock: 
+  Children: []
+  Siblings:
+  - {fileID: 11474420}
+  Family:
+  - {fileID: 11474406}
+  - {fileID: 11474408}
+  - {fileID: 11474418}
+  - {fileID: 11474420}
+  Renderers: []
+  AudioSources:
+  - {fileID: 8274424}
+  m_ProjectileSpawnPoint: {fileID: 174424}
+  ProjectilePrefab: {fileID: 100000, guid: a015ca9d6a1aeb148941bb3544885cc1, type: 2}
+  ProjectileScale: 0.4
+  ProjectileFiringRate: 0.4
+  ProjectileSpawnDelay: 0
+  ProjectileCount: 1
+  ProjectileSpread: 1
+  ProjectileSourceIsRoot: 1
+  FireMessage: 
+  MuzzleFlashPosition: {x: 0, y: 0, z: 0}
+  MuzzleFlashScale: {x: 0.2, y: 0.2, z: 0.2}
+  MuzzleFlashFadeSpeed: 0.075
+  MuzzleFlashPrefab: {fileID: 100000, guid: 253c19e9e67a40946b655eb0c2f14527, type: 2}
+  MuzzleFlashDelay: 0
+  m_MuzzleFlashSpawnPoint: {fileID: 0}
+  ShellPrefab: {fileID: 100000, guid: 0645d85cd7b7e334299539b03d28395a, type: 2}
+  ShellScale: 0.05
+  ShellEjectDirection: {x: 2, y: 1, z: 1}
+  ShellEjectPosition: {x: 0.2, y: -0.05, z: 0.5}
+  ShellEjectVelocity: 0.2
+  ShellEjectDelay: 0
+  ShellEjectSpin: 1
+  m_ShellEjectSpawnPoint: {fileID: 0}
+  SoundFire: {fileID: 8300000, guid: c32822916b4505846bea6008e361bc5d, type: 3}
+  SoundFireDelay: 0
+  SoundFirePitch: {x: 1, y: 1}
+  FirePosition: {x: 111.061104, y: 105.54269, z: -89.6473}
+  ProjectileTapFiringRate: 0.1
+  MotionPositionRecoil: {x: 0, y: 0, z: -0.035}
+  MotionRotationRecoil: {x: -10, y: 0, z: 0}
+  MotionRotationRecoilDeadZone: 0.5
+  MotionDryFireRecoil: -0.1
+  MotionRecoilDelay: 0
+  MuzzleFlashFirstShotMaxDeviation: 180
+  SoundDryFire: {fileID: 8300000, guid: 17a20244025722c4387359c88bd319a1, type: 3}
+  MotionPositionReset: 0.5
+  MotionRotationReset: 0.5
+  MotionPositionPause: 0
+  MotionRotationPause: 1
+  MotionRotationRecoilCameraFactor: 0
+  MotionPositionRecoilCameraFactor: 0
+  AnimationFire: {fileID: 0}
+  AnimationOutOfAmmo: {fileID: 0}
+--- !u!114 &11474424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dff080eb100b14190cc15bff12b397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundReload: {fileID: 0}
+  ReloadDuration: 1
+  AnimationReload: {fileID: 0}
+--- !u!114 &11497546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e0031324c0b48318926ad2499e7aff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  runSpeed: 10
+  turnSpeed: 60
+  disableWeapons: 0
+--- !u!143 &14374424
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 174420}
+  m_IsPrefabParent: 1

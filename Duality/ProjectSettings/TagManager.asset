@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Triggerer
+  - Grass
+  - Stone
+  - thing
+  - SpawnPoint
+  - PlayerSpawner
+  - Enemy
+  - Floor
+  - BigRedButton
+  - Plant_BB
+  - Plant_WM
+  - Plant_Button
+  - Fruit
+  - Door_Button
+  - Battery
+  - AudioTape
+  - AudioField
+  - AlienTech
+  - DisableSpawner
+  - KeyCardA
+  - KeyCardB
+  - SwitchDimensionCollider
+  - Door
+  - DoorCollider
+  - pistol
+  - shotgun
+  - health
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - DoorSpaceing
+  - Door
+  - Floor
+  - MovableObject
+  - Ragdoll
+  - RemotePlayer
+  - IgnoreBullets
+  - Enemy
+  - Pickup
+  - Trigger
+  - MovingPlatform
+  - Debris
+  - LocalPlayer
+  - Weapon
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
